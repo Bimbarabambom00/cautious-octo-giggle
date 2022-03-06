@@ -5,7 +5,7 @@
 		<meta charset="utf-8">
 		<title>Wataha Legends</title>
 		<link rel="stylesheet" href="style.css">
-	</head>
+	<head/>
 	<body>
 		<div class="box">
 			<h2>Login</h2>
