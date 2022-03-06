@@ -18,7 +18,7 @@
 					<input type="Password" name="haslo">
 					<label>Password</label>
 				<div/>
-				<input type="submit" name="" value="Submit">
+				<input type="submit" name="submit" value="Submit">
 			<form/>
 		<div/>
 	<body/>
