@@ -13,13 +13,13 @@
 				<div class="inputBox">
 					<input type="text" name="login">
 					<label>Username</label>
-				</div>
+				<div/>
 				<div class="inputBox">
 					<input type="Password" name="haslo">
 					<label>Password</label>
-				</div>
+				<div/>
 				<input type="submit" name="" value="Submit">
-			</form>
-		</div>
-	</body>
-</html>
+			<form/>
+		<div/>
+	<body/>
+<html/>
