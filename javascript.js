@@ -14,7 +14,7 @@
 				alert("pomyślnie zalogowano jako KACPER.admin");
 				<!-- NICOLAS -->
 			if (document.getElementById("login_usr").value == "nicolas" && document.getElementById("password_usr").value == "nicolas1"){
-				alert("pomyślnie zalogowano jako KACPER.admin");
+				alert("pomyślnie zalogowano jako NICOLAS.admin");
 			
 				}
 		}
