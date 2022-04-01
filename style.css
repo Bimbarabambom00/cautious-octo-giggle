@@ -1,0 +1,47 @@
+body  {
+	margin: 0;
+	padding: 0;
+	background: rgb(34,193,195);
+}
+header {
+	height: 60px;
+	width: 100%;
+	background: red;
+}
+#social_btn1 {
+	margin-bottom: 15px;
+}
+#social_btn3 {
+	margin-top: 15px;
+}
+.social_btn {
+	height: 230px;
+	width: 100%;
+	background: orange
+}
+#social {
+	height: 720px;
+	width: 370px;
+	background: green;
+	margin-top: 70px;
+	margin-left:70px;
+	float: left
+}
+#main {
+	margin-top: 70px;
+	margin-left: 466px;
+	height: 720px;
+	width: 600px;
+	background: magenta;
+}
+footer {
+	font-family: 'Roboto', sans-serif;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	width: 100%;
+	position:absolute;
+	background: #0d0d0d;
+	color: white;
+	bottom: 0;
+}
