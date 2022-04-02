@@ -10,9 +10,16 @@ header {
 	background: rgba(29, 29, 29, 0.75);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
 }
+
 #social_btn1 {
+	
+	text-align: center;
+	color: rgb(148, 148, 148);
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
 	border-radius: 7px;
 	margin-bottom: 15px;
+	
 }
 #social_btn2 {
 	border-radius: 7px;
