@@ -137,8 +137,7 @@ footer {
 	background-color: #2EE59D;
 	box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.2);
 	color: #fff;
-	transform: translateY(-7px);
 }
 #btnsubmit:active {
-	transform: translateY(-1px);
+	transform: translateY(-5px);
 }
