@@ -155,3 +155,11 @@ footer {
 	border-bottom: 2px solid rgb(92, 92, 92);
 	
 }
+.resultXY {
+	padding-top: 10px;
+	border: none;
+	text-align: center;
+	color: rgb(148, 148, 148);
+	font-size: 11px;
+	font-family: 'Roboto', sans-serif;
+}
