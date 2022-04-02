@@ -1,16 +1,12 @@
 <!doctype html>
 <html lang="pl">
 	<head>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;900&family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 		<script src="plik.js"></script>
 		<meta charset="utf-8">
 		<title>Wataha Legends Studio</title>
 		<link rel="stylesheet" href="style.css">
-		<link rel="icon" type="image/x-icon" href="/pics/favicon.ico">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="icon" type="image/x-icon" href="pics/favicon.ico">
 		<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;900&family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
 	</head>
 	<body>
@@ -37,14 +33,40 @@
 						<hr id='hrH'>
 						</div>
 						<div id='inputbot'>
-							<input type='number' class='numberbot' placeholder='Ino Flowers..' ><br>
-							<input type='number' class='numberbot' placeholder='Small Posion..'><br>
-							<input type='number' class='numberbot' placeholder='Big Posion..'><br>
+							<input type='number' id='flowerslet' class='numberbot' placeholder='Kwiaty Ino..' ><br>
+							<input type='number' id='malalet' class='numberbot' placeholder='Mała mikstura..'><br>
+							<input type='number' id='duzalet' class='numberbot' placeholder='Duża mikstura..'><br>
 						</div>
 						<div id='submitbot'>
 							<div id='left' class='middle'>	<hr class="hrmid">	</div>
-							<div id='mid'  class='middle'>	<button id='btnsubmit'>Przelicz</button>	</div>
+							<div id='mid'  class='middle'>	<button id='btnsubmit' onClick='Przelicz()'>Przelicz</button>	</div>
 							<div id='right' class='middle'>	<hr class="hrmid">	</div>
+							
+						</div>
+						<div id='result'>
+								<div class='resultX'>
+									Wymagana energia do podanych kwiatów : <span id='AA'></span>
+								</div>
+								<div class='resultX'>
+									Potrzebna ilość małych potek do uzyskania <span id='AX'></span> energi : <span id='BX'></span>
+								</div>
+								<div class='resultX'>
+									Potrzebna ilość duzych potek do uzyskania <span id='HX'></span> energi : <span id='CX'></span>
+								</div>
+								<div class='resultX'>
+									Do uzyskania <span id='AV'></span> energi potrzeba <span id='BV'></span> małych potek, oraz <span id='CV'></span> dużych
+								</div>
+								<div class='resultX'>
+									Energia wymagana po obliczeniu potek : <span id='SS'></span>
+								</div>
+								<div class='resultX'>
+									<span id='SS1'></span> Energi, czyli <span id='SS10X'></span> małych potek, lub <span id='SS50X'></span> dużych potek
+								</div>
+								
+								<div class='resultX'>
+									<span id='SS21'></span> Energi, co daje <span id='LA'></span> małych potek, oraz <span id='LB'></span> dużych
+								</div>
+							
 							
 						</div>
 					</div>

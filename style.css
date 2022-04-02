@@ -141,3 +141,17 @@ footer {
 #btnsubmit:active {
 	transform: translateY(-5px);
 }
+#result {
+	color: white;
+	font-size: 15px;
+	font-family: 'Roboto', sans-serif;
+	width: 570px;
+	height: 370px;
+	padding: 15px;
+}
+.resultX {
+	padding-top: 15px; 
+	padding-bottom: 15px;
+	border-bottom: 2px solid rgb(92, 92, 92);
+	
+}
