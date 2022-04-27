@@ -2,7 +2,7 @@ const Przelicz = () => {
 	var flowers = parseInt(flowerslet.value);
 	var malepotki = parseInt(malalet.value);
 	var duzepotki = parseInt(duzalet.value);
-	var EnergiaWithoutFlowers = flowers * 93;
+	var EnergiaWithoutFlowers = flowers * 120;
 	AX.innerHTML = " " + EnergiaWithoutFlowers + " ";
 	HX.innerHTML = " " + EnergiaWithoutFlowers + " ";
 	AV.innerHTML = " " + EnergiaWithoutFlowers + " ";
